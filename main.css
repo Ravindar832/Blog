@@ -1,0 +1,18 @@
+ body{
+     background-color: rgb(181, 207, 228);
+     height: auto;
+     width: auto;
+ }
+ #title{
+     color: rgb(216, 107, 107);
+ }
+ #hi{
+     color: rgb(228, 51, 139);
+ }
+ .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: rgb(206, 29, 38); */
+    /* width: 50%; */
+ }
