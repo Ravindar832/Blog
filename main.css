@@ -2,6 +2,7 @@
      background-color: rgb(181, 207, 228);
      height: auto;
      width: auto;
+     align-items: center;
  }
  #title{
      color: rgb(216, 107, 107);
@@ -9,10 +10,60 @@
  #hi{
      color: rgb(228, 51, 139);
  }
- .center{
-    display: block;
+ .main{
+    text-align: center;
+    display: center;
     margin-left: auto;
     margin-right: auto;
-    /* border: rgb(206, 29, 38); */
-    /* width: 50%; */
+    align-items: center;
+    justify-content: center;
+ }
+ .contact {
+     padding: auto;
+     display: center;
+    margin: auto;
+  padding: 0.25rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 1200px;
+  padding: horizontal;
+  align-items: space-between;
+  background-color: rgb(14, 172, 235);
+  align-content: space-between; 
+  justify-content: space-between;    
+ }
+ .card {
+     display: center;
+    margin: auto;
+  padding: 1.5rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 1200px;
+  padding: horizontal;
+  align-items: center;
+  background-color: lightgrey;
+  align-content: center; 
+  justify-content: center;    
+ }
+ .con {
+     margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 200px;
+    padding: horizontal;
+    align-items: center;
+    background-color: rgb(234, 236, 243);  
  }
