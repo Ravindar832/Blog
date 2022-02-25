@@ -22,14 +22,14 @@
      padding: auto;
      display: center;
     margin: auto;
-  padding: 0.26rem;
+  padding: 0.25rem;
   text-align: center;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 1200px;
+  max-width: 1245px;
   padding: horizontal;
   align-items: space-between;
   background-color: rgb(14, 172, 235);
@@ -62,8 +62,30 @@
     border: 1px solid #eaeaea;
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
-    max-width: 200px;
+    max-width: 1200px;
     padding: horizontal;
     align-items: center;
     background-color: rgb(234, 236, 243);  
  }
+
+ img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
