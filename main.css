@@ -64,8 +64,10 @@
     transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 1200px;
     padding: horizontal;
-    align-items: center;
-    background-color: rgb(234, 236, 243);  
+    align-items: space-between;
+    background-color: rgb(234, 236, 243);
+    align-content: space-between; 
+  justify-content: space-between;  
  }
 
  
