@@ -69,5 +69,18 @@
     align-content: space-between; 
   justify-content: space-between;  
  }
+ #desktop-photo {
+     border-radius: 20px;
+     border: 2px solid black;
+     border-color: black;
+     box-shadow: 10px 10px 5px black; 
+     /* box-shadow: 10px 10px 5px 12px rgba(22, 31, 34, 0.938); */
+ }
+ #mobile {
+    border-radius: 20px;
+     border: 2px solid black;
+     border-color: black;
+     box-shadow: 10px 10px 5px black; 
+ }
 
  
