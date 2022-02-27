@@ -1,5 +1,5 @@
  body{
-     background-color: rgb(181, 207, 228);
+     background-color: #02070aea;
      height: auto;
      width: auto;
      align-items: center;
@@ -32,7 +32,7 @@
   max-width: 1245px;
   padding: horizontal;
   align-items: space-between;
-  background-color: rgb(14, 172, 235);
+  background-color: rgb(0, 255, 255);
   align-content: space-between; 
   justify-content: space-between;    
  }
@@ -81,6 +81,30 @@
      border: 2px solid black;
      border-color: black;
      box-shadow: 10px 10px 5px black; 
+ }
+ #twitt:hover {
+    transform: scale(1.5);
+    background: rgb(72, 11, 212);
+ }
+
+ #insta:hover {
+    transform: scale(1.5);
+    /* background: blue; */
+ }
+
+ #git:hover {
+    transform: scale(1.5);
+    /* background: blue; */
+ }
+
+ #mail:hover {
+    transform: scale(1.5);
+    /* background: blue; */
+ }
+
+ #in:hover {
+    transform: scale(1.5);
+    background: blue;
  }
 
  
